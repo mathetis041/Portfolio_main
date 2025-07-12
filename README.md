@@ -1,6 +1,6 @@
 # Modern Portfolio Template 🚀
 
-A sleek, modern portfolio built with React, Vite, and Framer Motion. This template features a stunning black and white design with smooth animations and a polished user interface.
+A sleek, modern portfolio built with React, Vite, and Framer Motion. This features a stunning black and white design with smooth animations and a polished user interface.
 
 ## ✨ Features
 
