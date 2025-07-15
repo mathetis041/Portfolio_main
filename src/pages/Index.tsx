@@ -114,7 +114,7 @@ const Index: React.FC = () => {
           <ProjectsSection />
           <EducationTimeline />
           {/* <CompetitiveStats /> */}
-          {/* <BlogSection /> */}
+          <BlogSection />
           <ContactSection />
         </main>
 
