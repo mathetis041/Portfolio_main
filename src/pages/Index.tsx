@@ -92,8 +92,7 @@ const Index: React.FC = () => {
                 </li>
                 <li>
                   <a
-                    href="https://docs.google.com/document/d/1AdgiEaEuHhGozpCc9XZ9uR_Zf9e-0UgqwEaJQxNlg_o/edit?usp=sharing"
-                    target="_blank"
+                    href="https://docs.google.com/document/d/1AdgiEaEuHhGozpCc9XZ9uR_Zf9e-0UgqwEaJQxNlg_o/export?format=pdf"
                     rel="noopener noreferrer"
                     onClick={(e) => {
                       e.stopPropagation();
@@ -101,7 +100,7 @@ const Index: React.FC = () => {
                         setIsMenuOpen(false);
                       }, 200);
                     }}
-                    className="block cta-button-premium text-sm px-4 py-1"
+                    className="block text-sm px-4 py-1"
                   >
                     Resume
                   </a>
