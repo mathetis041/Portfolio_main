@@ -95,12 +95,18 @@ const Index: React.FC = () => {
                     href="https://docs.google.com/document/d/1AdgiEaEuHhGozpCc9XZ9uR_Zf9e-0UgqwEaJQxNlg_o/edit?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setTimeout(() => {
+                        setIsMenuOpen(false);
+                      }, 200);
+                    }}
                     className="block cta-button-premium text-sm px-4 py-1"
                   >
                     Resume
                   </a>
                 </li>
+
               </ul>
             </div>
           )}
