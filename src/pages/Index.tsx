@@ -94,14 +94,9 @@ const Index: React.FC = () => {
                 <li>
                   <a
                     href={resume}
+                    target="_blank"
                     rel="noopener noreferrer"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      setTimeout(() => {
-                        setIsMenuOpen(false);
-                      }, 200);
-                    }}
-                    className="block text-sm px-4 py-1"
+                    className="cta-button-premium text-sm px-4 py-1"
                   >
                     Resume
                   </a>
