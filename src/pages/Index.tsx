@@ -6,6 +6,7 @@ import ProjectsSection from "@/components/ProjectsSection";
 import React, { useState } from "react";
 import TechMarquee from "@/components/TechMarquee";
 import logo from "../../public/logo.png";
+import resume from "../../public/Resume.pdf";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
@@ -90,9 +91,9 @@ const Index: React.FC = () => {
                     Contact
                   </a>
                 </li>
-                {/* <li>
+                <li>
                   <a
-                    href="https://docs.google.com/document/d/1AdgiEaEuHhGozpCc9XZ9uR_Zf9e-0UgqwEaJQxNlg_o/export?format=pdf"
+                    href={resume}
                     rel="noopener noreferrer"
                     onClick={(e) => {
                       e.stopPropagation();
@@ -104,7 +105,7 @@ const Index: React.FC = () => {
                   >
                     Resume
                   </a>
-                </li> */}
+                </li>
 
               </ul>
             </div>
