@@ -90,7 +90,7 @@ const Index: React.FC = () => {
                     Contact
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="https://docs.google.com/document/d/1AdgiEaEuHhGozpCc9XZ9uR_Zf9e-0UgqwEaJQxNlg_o/export?format=pdf"
                     rel="noopener noreferrer"
@@ -104,7 +104,7 @@ const Index: React.FC = () => {
                   >
                     Resume
                   </a>
-                </li>
+                </li> */}
 
               </ul>
             </div>
