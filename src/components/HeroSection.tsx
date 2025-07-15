@@ -36,7 +36,7 @@ const HeroSection: React.FC = () => {
           className="w-96 h-96 rounded-full overflow-hidden border-4 border-white/10 mx-auto mb-8"
         >
           <img
-            src={avatar}
+            src="https://res.cloudinary.com/doijevrqo/image/upload/v1752585589/Matthew3_b5ycke.jpg"
             alt="Matthew Vincent"
             className="w-full h-full object-cover"
           />
@@ -76,7 +76,7 @@ const HeroSection: React.FC = () => {
           custom={3}
           variants={textVariants}
         >
-          I craft dynamic user interfaces that don’t just look good — they solve real-world problems. As a mission-driven frontend developer with a passion for innovation, I specialize in building high-performance digital experiences using React, TypeScript, Tailwind, and Web3 technologies.
+          I craft dynamic user interfaces that don’t just look good — they solve real-world problems. As a mission-driven frontend developer with a passion for innovation, I specialize in building high-performance digital experiences using React, TypeScript, and Tailwind.
           <br /><br />
           My ambition is simple yet powerful: to harness the power of code to address pressing global challenges — from democratizing housing to improving healthcare access and making fitness more rewarding. I believe technology should serve people at scale, and I’m committed to creating inclusive, sustainable solutions that improve lives and leave a lasting impact.
         </motion.p>

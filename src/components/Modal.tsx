@@ -7,21 +7,22 @@ interface ModalProps {
     onClose: () => void;
     title: string;
     content: string;
+    showRepoNote?: boolean;
 }
 
 const backdrop = {
     hidden: { opacity: 0 },
     visible: { opacity: 1 },
-    exit: { opacity: 0 }
+    exit: { opacity: 0 },
 };
 
 const modal = {
     hidden: { y: 30, opacity: 0, scale: 0.95 },
     visible: { y: 0, opacity: 1, scale: 1 },
-    exit: { y: 30, opacity: 0, scale: 0.95 }
+    exit: { y: 30, opacity: 0, scale: 0.95 },
 };
 
-// Helper: Render content with HTML and bullets
+// Parses raw string into bullet points and paragraphs
 const renderParsedContent = (raw: string) => {
     const lines = raw.split("\n").map(line => line.trim()).filter(Boolean);
 
@@ -30,7 +31,7 @@ const renderParsedContent = (raw: string) => {
 
     lines.forEach((line, idx) => {
         if (line.startsWith("-")) {
-            buffer.push(line.slice(1).trim()); // strip the hyphen
+            buffer.push(line.slice(1).trim()); // remove the hyphen
         } else {
             if (buffer.length > 0) {
                 result.push(
@@ -48,7 +49,7 @@ const renderParsedContent = (raw: string) => {
         }
     });
 
-    // Final buffer flush
+    // Flush remaining bullets
     if (buffer.length > 0) {
         result.push(
             <ul className="list-disc list-inside space-y-1 text-white/80 mb-2" key="ul-last">
@@ -62,7 +63,7 @@ const renderParsedContent = (raw: string) => {
     return result;
 };
 
-const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, content }) => {
+const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, content, showRepoNote }) => {
     return (
         <AnimatePresence>
             {isOpen && (
@@ -90,8 +91,15 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, content }) => {
                         </button>
 
                         <h2 className="text-xl font-semibold mb-4">{title}</h2>
+
                         <div className="text-sm leading-relaxed space-y-3">
                             {renderParsedContent(content)}
+
+                            {showRepoNote && (
+                                <div className="mt-4 text-xs text-yellow-300 bg-yellow-900/30 p-3 rounded-md border border-yellow-500">
+                                    <strong>Note:</strong> The GitHub repository for this project is private and will be shared upon request.
+                                </div>
+                            )}
                         </div>
                     </motion.div>
                 </motion.div>

@@ -20,6 +20,8 @@ const TechMarquee: React.FC = () => {
     { name: "TypeScript", icon: <Code2 className="w-5 h-5 mr-2" /> },
     { name: "TailwindCSS", icon: <Paintbrush className="w-5 h-5 mr-2" /> },
     { name: "CSS Modules", icon: <Layers className="w-5 h-5 mr-2" /> },
+    { name: "React-Storybook", icon: <Code2 className="w-5 h-5 mr-2" /> },
+
   ];
 
   const techStackRow2 = [

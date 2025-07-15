@@ -92,7 +92,7 @@ const Index: React.FC = () => {
                 </li>
                 <li>
                   <a
-                    href="/resume.pdf"
+                    href="https://docs.google.com/document/d/1AdgiEaEuHhGozpCc9XZ9uR_Zf9e-0UgqwEaJQxNlg_o/edit?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={() => setIsMenuOpen(false)}
@@ -113,7 +113,7 @@ const Index: React.FC = () => {
           <ProjectsSection />
           <EducationTimeline />
           {/* <CompetitiveStats /> */}
-          <BlogSection />
+          {/* <BlogSection /> */}
           <ContactSection />
         </main>
 

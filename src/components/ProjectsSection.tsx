@@ -41,7 +41,7 @@ const ProjectsSection: React.FC = () => {
   - <b>Over 1,000 landlords joined the waitlist</b> with high engagement and onboarding interest.`,
       techStack: ["React", "TypeScript", "Tailwind", "Jest"],
       github: "https://github.com/your-username/amani",
-      live: "https://amani-live-url.com"
+      live: "https://Amanilivin.com"
     },
     {
       id: 2,
@@ -49,7 +49,7 @@ const ProjectsSection: React.FC = () => {
       description: "A job and education platform connecting freelancers to clients and professional learning content.",
       techStack: ["React", "TypeScript", "CSS Modules"],
       github: "https://github.com/mathetis041/reevgig",
-      live: "https://reevgig.netlify.app"
+      live: "https://reevgig-app.netlify.app"
     },
     {
       id: 3,
@@ -62,7 +62,7 @@ const ProjectsSection: React.FC = () => {
   - Aims to promote daily fitness habits while gamifying healthy behavior through tokenized rewards.`,
       techStack: ["Nextjs", "Tailwind", "Web3", "Firebase"],
       github: "https://github.com/your-username/basefit",
-      live: "https://basefit-live-url.com"
+      live: "https://basefit.vercel.app"
     },
     {
       id: 4,
