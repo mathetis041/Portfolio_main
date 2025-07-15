@@ -77,7 +77,7 @@ const HeroSection: React.FC = () => {
           variants={textVariants}
         >
           I engineer scalable, high-performance user interfaces that go beyond aesthetics to deliver tangible solutions to complex, real-world challenges. As a frontend developer driven by impact and innovation, I specialize in architecting responsive and accessible digital experiences using React, TypeScript, and Tailwind CSS.
-
+          <br /> <br />
           My focus lies in leveraging modern web technologies to build solutions that address global issues—whether it's increasing access to affordable housing, enhancing digital healthcare platforms, or gamifying fitness to promote healthier lifestyles. I’m dedicated to creating inclusive, sustainable systems that not only perform at scale but also drive meaningful change.
         </motion.p>
       </div>
