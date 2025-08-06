@@ -12,13 +12,19 @@ interface BlogPost {
 const BlogSection: React.FC = () => {
   const blogPosts: BlogPost[] = [
     {
-      id: 1,
+      id: 2,
+      title: "Join the Zugaara waitlist",
+      url: "https://www.linkedin.com/posts/matthew-vincent-frontend-developer_join-the-zugaara-waitlist-activity-7358074404532084738-IKbO?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtqyAsBxF2wHKg-V49iV9GCS6RV7rFqhyg",
+      date: "July 09, 2025"
+    },
+    {
+      id: 2,
       title: "AI Chat deployment issue in deployment",
       url: "https://www.linkedin.com/posts/matthew-vincent-frontend-developer_how-i-integrated-gemini-api-into-my-ai-chat-activity-7350904672930398209-YvBR?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtqyAsBxF2wHKg-V49iV9GCS6RV7rFqhyg",
       date: "July 09, 2025"
     },
     {
-      id: 2,
+      id: 3,
       title: "It is fine atimes not to remember the code you wrote",
       url: "https://www.linkedin.com/posts/matthew-vincent-frontend-developer_help-webdeveloper-google-activity-6950492946202820608-1jfu?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtqyAsBxF2wHKg-V49iV9GCS6RV7rFqhyg",
       date: "March 15, 2022"
