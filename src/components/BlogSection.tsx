@@ -19,7 +19,7 @@ const BlogSection: React.FC = () => {
     },
     {
       id: 2,
-      title: "AI Chat deployment issue in deployment",
+      title: "AI Chat deployment issue",
       url: "https://www.linkedin.com/posts/matthew-vincent-frontend-developer_how-i-integrated-gemini-api-into-my-ai-chat-activity-7350904672930398209-YvBR?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtqyAsBxF2wHKg-V49iV9GCS6RV7rFqhyg",
       date: "July 09, 2025"
     },
