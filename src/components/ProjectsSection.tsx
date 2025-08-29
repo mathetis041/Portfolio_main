@@ -31,7 +31,20 @@ const ProjectsSection: React.FC = () => {
 
   const projects: Project[] = [
     {
-      id: 1,
+      id: 2,
+      title: "Zugaara (in progress)",
+      description: "A platform that assists users with their day to day work tasks using AI.",
+      extraInfo: `Zugaara (In Progress)
+  03/2025 - Present
+  - A platform that connects tenants directly with landlords via map-integrated listings and live chat. 
+  - Built with React, TypeScript, Tailwind CSS, and Jest. 
+  - <b>Over 1,000 landlords joined the waitlist</b> with high engagement and onboarding interest.`,
+      techStack: ["NextJs", "TypeScript", "Tailwind", "Jest", "Prisma", "PostgresSQL"],
+      github: "",
+      live: ""
+    },
+    {
+      id: 2,
       title: "Amani (in progress)",
       description: "A platform that connects tenants directly with landlords via map-integrated listings and live chat.",
       extraInfo: `Amani (In Progress)
@@ -44,7 +57,7 @@ const ProjectsSection: React.FC = () => {
       live: "https://Amanilivin.com"
     },
     {
-      id: 2,
+      id: 3,
       title: "Reevgig",
       description: "A job and education platform connecting freelancers to clients and professional learning content.",
       techStack: ["React", "TypeScript", "CSS Modules"],
@@ -52,7 +65,7 @@ const ProjectsSection: React.FC = () => {
       live: "https://reevgig-app.netlify.app"
     },
     {
-      id: 3,
+      id: 4,
       title: "Basefit (in progress)",
       description: "A Web3 fitness app that rewards users in USDT for completing daily workouts like distance walking.",
       extraInfo: `BaseFit (In Progress)
@@ -65,7 +78,7 @@ const ProjectsSection: React.FC = () => {
       live: "https://basefit.vercel.app"
     },
     {
-      id: 4,
+      id: 5,
       title: "Radio App",
       description: "A global radio streaming app with search filtering by country/place and single-player.",
       techStack: ["React", "CSS Modules", "API Integration"],
@@ -73,7 +86,7 @@ const ProjectsSection: React.FC = () => {
       live: "https://mattvinc-radio-app.netlify.app"
     },
     {
-      id: 5,
+      id: 6,
       title: "Chef Palace",
       description: "A functional recipe and culinary app that gives dietary nutritional details, filters, and recipe interactions.",
       techStack: ["React", "Tailwind", "Framer Motion", "API Integration"],
@@ -81,7 +94,7 @@ const ProjectsSection: React.FC = () => {
       live: "https://incomparable-kashata-b55812.netlify.app"
     },
     {
-      id: 6,
+      id: 7,
       title: "AI Chat App",
       description: "A chat interface powered by Gemini API for interactive Q&A, showcasing asynchronous data handling.",
       techStack: ["React", "TypeScript", "Framer Motion", "Gemini API"],
