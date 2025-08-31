@@ -46,7 +46,7 @@ const CompetitiveStats: React.FC = () => {
       color: '#FFA116',
       username: 'johndoe',
       url: 'https://leetcode.com/johndoe/',
-      rating: "1700",
+      rating: "100",
       data: leetcodeData,
       problems: "350 problems solved"
     },
