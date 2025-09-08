@@ -30,19 +30,19 @@ const ProjectsSection: React.FC = () => {
   };
 
   const projects: Project[] = [
-    {
-      id: 2,
-      title: "Zugaara (in progress)",
-      description: "A platform that assists users with their day to day work tasks using AI.",
-      extraInfo: `Zugaara (In Progress)
-  03/2025 - Present
-  - A platform that connects tenants directly with landlords via map-integrated listings and live chat. 
-  - Built with React, TypeScript, Tailwind CSS, and Jest. 
-  - <b>Over 1,000 landlords joined the waitlist</b> with high engagement and onboarding interest.`,
-      techStack: ["NextJs", "TypeScript", "Tailwind", "Jest", "Prisma", "PostgresSQL"],
-      github: "",
-      live: ""
-    },
+    //   {
+    //     id: 1,
+    //     title: "Zugaara (in progress)",
+    //     description: "A platform that assists users with their day to day work tasks using AI.",
+    //     extraInfo: `Zugaara (In Progress)
+    // 03/2025 - Present
+    // - A platform that connects tenants directly with landlords via map-integrated listings and live chat. 
+    // - Built with React, TypeScript, Tailwind CSS, and Jest. 
+    // - <b>Over 1,000 landlords joined the waitlist</b> with high engagement and onboarding interest.`,
+    //     techStack: ["NextJs", "TypeScript", "Tailwind", "Jest", "Prisma", "PostgresSQL"],
+    //     github: "",
+    //     live: ""
+    //   },
     {
       id: 2,
       title: "Amani (in progress)",
