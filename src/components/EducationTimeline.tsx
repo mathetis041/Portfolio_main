@@ -42,7 +42,7 @@ const ExperienceAndCertifications: React.FC = () => {
     {
       id: 2,
       years: "06/2022 – 08/2022",
-      role: "Frontend Developer",
+      role: "Fullstack Developer",
       organization: "I4GxZURI Cohort 1 Scholarship",
       location: "Akure, Nigeria",
       description:
